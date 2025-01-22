@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main() {
+int main(){
     float n,m;
     scanf("%f %f",&n,&m);
     int product=n*m;
-    print("%f",product)
+    print("%f",product);
     return 0;
 }
