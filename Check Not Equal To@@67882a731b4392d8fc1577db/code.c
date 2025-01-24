@@ -2,10 +2,10 @@
 int main() {
     int n,m;
     scanf("%d  %d",&n &m);
-    if(n!=m){
-        printf("True");   
+    if(n==m){
+        printf("False");   
     }else{
-        printf("False");
+        printf("True");
     }
    
     return 0;
