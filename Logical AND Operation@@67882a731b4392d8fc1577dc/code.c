@@ -5,7 +5,7 @@ intm main(){
     if(n>0 && m>0){
         printf("True");
     }else{
-        printf("false");
+        printf("False");
     }
 
 
