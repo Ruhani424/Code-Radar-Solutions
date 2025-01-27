@@ -6,7 +6,7 @@ int main() {
         printf("%d",n);
     }
     else{
-        printf("%d",m)
+        printf("%d",m);
     }
   
     return 0;
