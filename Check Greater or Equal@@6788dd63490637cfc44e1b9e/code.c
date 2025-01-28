@@ -5,8 +5,10 @@ int main() {
     scanf("%d %d",&n,&m);
     if(n>m){
         printf("Yes");
-    }else{
+    }else if(n<m){
         printf("No");
+    }else{
+        printf("Equal");
     }
     return 0;
 }
