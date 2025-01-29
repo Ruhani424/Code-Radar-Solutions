@@ -8,7 +8,7 @@ int main() {
     }else if(n==m){
         printf("Equal");;
     }else{
-        printf("NO");
+        printf("No");
     }
     return 0;
 }
