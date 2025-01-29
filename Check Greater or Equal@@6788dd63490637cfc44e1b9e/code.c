@@ -3,6 +3,12 @@
 int main() {
     int n,m;
     scanf("%d %d",&n,&m);
-    (n>m)?printf("Yes"):printf("No");
+    if(n>m){
+        printf("Yes");
+    }else if(n==m){
+        printf("Equal");;
+    }else{
+        printf("NO");
+    }
     return 0;
 }
