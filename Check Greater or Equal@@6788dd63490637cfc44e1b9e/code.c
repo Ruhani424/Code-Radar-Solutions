@@ -7,7 +7,7 @@ int main() {
         printf("Yes");
     // }else if(n==m){
     //     printf("Equal");;
-    }else{
+    else{
         printf("No");
     }
     return 0;
