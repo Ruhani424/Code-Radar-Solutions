@@ -19,13 +19,13 @@ int main() {
         printf("31");
         break;
         case 6:
-        prnif("30");
+        printf("30");
         break;
         case 7:
         printf("31");
         break;
         case 8:
-        prnif("31");
+        printf("31");
         break;
         case 9:
         printf("30");
