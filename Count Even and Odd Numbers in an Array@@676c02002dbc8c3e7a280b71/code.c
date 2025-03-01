@@ -5,7 +5,7 @@ int main(){
     int arr[n];
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
-        if(i%2==0){
+        if(arr[i]%2==0){
             counteven++;
         }else{
             countodd++;
