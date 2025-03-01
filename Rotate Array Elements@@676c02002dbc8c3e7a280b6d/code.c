@@ -16,7 +16,7 @@ void rotate(){
         k--;
     }
     for(int k=0;k<N;k++){
-        printf("%d",array[k])
+        printf("%d",array[k]);
     }
 
 }
