@@ -12,6 +12,6 @@ int main(){
         }
        
     }
-     printf("%d", counteven);
-     printf("%d", countodd);
+     printf("%d ", counteven);
+     printf("%d ", countodd);
 }
