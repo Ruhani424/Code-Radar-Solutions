@@ -1,5 +1,5 @@
 #include <stdio.h>
-void rotate(){
+int main(){
     int N,k;
     scanf("%d",&N);
     int array[N];
