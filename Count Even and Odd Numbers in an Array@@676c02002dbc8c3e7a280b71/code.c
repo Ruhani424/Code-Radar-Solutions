@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=1;i<=n;i++){
-        scanf("%d",&array[i]);
+        scanf("%d",&arr[i]);
         if(i%2==0){
             counteven++;
         }else{
