@@ -8,15 +8,15 @@ void rotate(){
     }
     scanf("%d",&k);
     while(k>0){
-        int temp=arr[N-1];
+        int temp=array[N-1];
         for(int j=N-2;j>=0;j--){
-            arr[j+1]=arr[j];
+            array[j+1]=array[j];
         }
-        arr[0]=temp;
+        array[0]=temp;
         k--;
     }
     for(int k=0;k<N;k++){
-        printf("%d",arr[k])
+        printf("%d",array[k])
     }
 
 }
