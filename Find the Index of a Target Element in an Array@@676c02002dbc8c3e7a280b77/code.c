@@ -4,15 +4,15 @@ int main(){
     scanf("%d %d",&n,&k);
     
     int arr[n];
-    int num=-1;
+    // int num=-1;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]==k){
-            num=i;
+            printf("%d",i);
             break;
         }
         
 }
-printf("%d",num);
+printf("-1");
 return 0;
 }
