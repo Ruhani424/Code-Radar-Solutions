@@ -13,7 +13,8 @@ int main(){
                 temp=arr[i];
             }
         }
-        printf("%d",temp);
+       
     }
+     printf("%d",temp);
     return 0;
 }
