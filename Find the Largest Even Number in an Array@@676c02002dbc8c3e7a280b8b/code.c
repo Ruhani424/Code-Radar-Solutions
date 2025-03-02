@@ -12,6 +12,8 @@ int main(){
             if(arr[i]>temp){
                 temp=arr[i];
             }
+        }else{
+            printf("-1");
         }
        
     }
