@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n;
-    int temp=0;
+    int temp=-1;
    
     scanf("%d",&n);
     int arr[n];
@@ -12,8 +12,7 @@ int main(){
             if(arr[i]>temp){
                 temp=arr[i];
             }
-        }else{
-            printf("-1");
+        
         }
        
     }
