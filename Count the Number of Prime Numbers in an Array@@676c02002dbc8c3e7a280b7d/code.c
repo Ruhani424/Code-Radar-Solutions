@@ -10,7 +10,7 @@ int main(){
             continue;
             }
             else{
-                count++
+                count++;
             }
         }
     }
