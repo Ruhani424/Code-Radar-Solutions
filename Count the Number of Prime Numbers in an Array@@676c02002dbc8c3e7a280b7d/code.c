@@ -6,9 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         for(int j=2;j<n;j++){
-            if(arr[i]%j==0){
-            pass;
-            }
+            if(arr[i]%j==0);
+            
             else{
                 count++;
             }
