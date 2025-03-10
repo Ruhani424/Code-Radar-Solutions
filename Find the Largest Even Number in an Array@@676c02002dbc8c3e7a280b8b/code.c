@@ -12,15 +12,7 @@ int main(){
             if(arr[i]>temp){
                 temp=arr[i];
             }
-        
-        }else if(arr[i]<0)
-        {if (arr[i]%2==0){
-            if(arr[i]>temp){
-                temp=arr[i];}
-        }
-        }
-        
-       
+        }  
     }
      printf("%d",temp);
     return 0;
