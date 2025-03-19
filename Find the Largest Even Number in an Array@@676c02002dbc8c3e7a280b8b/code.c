@@ -10,9 +10,10 @@ int main(){
             
             if(arr[i]>temp){
                 temp=arr[i];
+                 printf("%d",temp);
             }
         }  
     }
-     printf("%d",temp);
+     printf("-1");
     return 0;
 }
