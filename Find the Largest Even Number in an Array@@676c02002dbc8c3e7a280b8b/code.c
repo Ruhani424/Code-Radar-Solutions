@@ -16,7 +16,7 @@ int main(){
             }
         }  
     }
-    if(temp> arr[0]){
+    if(temp> 2){
         printf("%d", temp);
         return 0;
     }
