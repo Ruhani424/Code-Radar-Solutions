@@ -14,6 +14,7 @@ int main(){
             if(arr[i]>temp){
                 temp=arr[i];
                  printf("%d",temp);
+                 return 0;
             }
         }  
     }
