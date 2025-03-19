@@ -13,10 +13,12 @@ int main(){
             
             if(arr[i]>temp){
                 temp=arr[i];
-                 printf("%d",temp);
-                 return 0;
             }
         }  
+    }
+    if(temp> arr[0]){
+        printf("%d", temp);
+        return 0;
     }
     printf("-1");
     return 0;
