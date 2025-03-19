@@ -6,10 +6,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int j=0;j<n;j++){
-        for(int k=0;k<n;k++){
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
             if(arr[j]+arr[k]==sum);
-            printf("%d %d",arr[j],arr[k]);
+            printf("%d %d\n",arr[i],arr[j]);
         }
     }
     return 0;
