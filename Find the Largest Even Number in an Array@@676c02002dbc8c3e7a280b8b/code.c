@@ -9,6 +9,10 @@ int main(){
             arr[i]*=-1
         }
     }
+    if(n==2){
+        printf("-2");
+        return 0;
+    }
     int temp=arr[0];
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -19,7 +23,7 @@ int main(){
             }
         }  
     }
-    if(temp>= 2){
+    if(temp> 2){
         printf("%d", temp);
         return 0;
     }
