@@ -9,7 +9,7 @@ int main(){
             if(arr[i]%j==0){
               num++;
             }
-            if(num>2){
+            if(num>1){
                 break;
             }else{
                 count++;
