@@ -16,5 +16,6 @@ int main(){
     if(diff<min){
         min=diff;
     }
-    printf("%d",min);
+    printf("%d\n",min);
+    return 0;
 }
