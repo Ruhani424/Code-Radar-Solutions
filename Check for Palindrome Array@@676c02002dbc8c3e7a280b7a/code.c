@@ -7,16 +7,16 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int brr[n];
+    int ispalindrome=1;
     for(int i=0;i<n;i++){
-        brr[i]=arr[n-i];
+        if(arr[i]!=arr[n-1-i]){
+            ispalindrome=0;
+            break;
+        }
     }
-    // for(int i=0;i<n;i++){
-    if(arr[i]==brr[i]){
-        printf("YES");
+    if(ispalindrome){
+        printf("YES\n");
     }else{
-        printf("NO");
-        
-    // }
+        printf("NO\n");
     }
 }
