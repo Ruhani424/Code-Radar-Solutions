@@ -10,7 +10,7 @@ int main(){
     int first=arr[0];
     int second=-1;
     if(n<2){
-        printf("-1");
+        second=-1;
     }else{
     for(int i=0;i<n;i++){
         if(arr[i]>first){
