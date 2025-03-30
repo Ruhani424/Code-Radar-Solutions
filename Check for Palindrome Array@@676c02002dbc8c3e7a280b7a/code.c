@@ -10,9 +10,11 @@ int main(){
     for(int i=0;i<n;i++){
         brr[i]=arr[n-i];
     }
+    for(int i=0;i<n;i++){
     if(arr[i]==brr[i]){
         printf("YES");
     }else{
         printf("NO");
+    }
     }
 }
