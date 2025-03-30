@@ -12,6 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         int mid=(start+end)/2;
         printf("%d",arr[mid]);
+        break;
     }
     return 0;
 }
