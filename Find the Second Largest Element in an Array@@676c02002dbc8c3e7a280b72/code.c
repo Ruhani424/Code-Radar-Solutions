@@ -16,6 +16,7 @@ int main(){
         }else if(arr[i]>second && arr[i]!=0){
             second=arr[i];
         }
-        printf("%d",second);
+        
     }
+      printf("%d",second);
 }
