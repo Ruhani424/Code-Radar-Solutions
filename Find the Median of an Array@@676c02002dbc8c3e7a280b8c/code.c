@@ -10,7 +10,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        mid=(start+end)/2;
+        int mid=(start+end)/2;
         printf("%d",arr[mid]);
     }
     return 0;
