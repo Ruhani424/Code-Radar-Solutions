@@ -18,8 +18,9 @@ int main(){
                 break;
                 // arr[j+1]>temp;
             }
-    }
             printf("Sorted");
+    }
+            
         }
 
 //         if(flag==0){
