@@ -16,7 +16,7 @@ int main(){
         break;}
         else{
            int midd=(start+end)/2;
-           arr[mid]=(arr[midd]+arr[midd+1])/2
+           arr[mid]=(arr[midd]+arr[midd+1])/2;
            printf("%d",arr[mid]);
         }
     }
