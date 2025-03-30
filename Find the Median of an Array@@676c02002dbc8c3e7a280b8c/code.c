@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int start=0;
-    int end=n-1
+    int end=n-1;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
