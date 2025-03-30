@@ -1,4 +1,4 @@
-#include <stdio.h>i
+#include <stdio.h>
 int isprime(int num){
     if(num<2)return 0;
     for(int i=2;i*i<num;i++){
