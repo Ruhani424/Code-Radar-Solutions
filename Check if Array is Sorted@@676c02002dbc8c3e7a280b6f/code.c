@@ -14,7 +14,7 @@ int main(){
             if(arr[i]>arr[i+1]){
                 // int temp=arr[j];
                 // arr[j]>arr[j+1];
-                printf(" Not Sorted\n");
+                printf("Not Sorted\n");
                 break;
                 // arr[j+1]>temp;
             }
