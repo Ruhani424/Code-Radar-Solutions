@@ -16,7 +16,7 @@ int main(){
         printf("YES");
     }else{
         printf("NO");
-        break;
+        
     // }
     }
 }
