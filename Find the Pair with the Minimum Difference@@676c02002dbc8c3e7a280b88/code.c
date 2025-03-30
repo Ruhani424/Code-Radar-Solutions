@@ -12,11 +12,13 @@ int main(){
         for(j=i+1;j<n;j++){
             diff=arr[i]-arr[j];
         }
-    }
-    if(diff<min){
+        if(diff<min){
         min=diff;
             printf("%d %d\n",arr[i],arr[j]);
     }
+    
+    
 
     return 0;
+}
 }
