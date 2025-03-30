@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]);}
         for(int j=1;j*j<arr[i];j++){
             if(arr[i]%j==0){
               num++;
@@ -14,7 +14,7 @@ int main(){
             }else{
                 count++;
             }
-        }
+        
     }
     printf("%d",count);
     return 0;
