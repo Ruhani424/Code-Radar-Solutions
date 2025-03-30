@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int n;
+    int n,mid;
     scanf("%d",&n);
     int arr[n];
     int start=0;
@@ -10,9 +10,15 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int mid=(start+end)/2;
+        if(n%2==1){
+        mid=(start+end)/2;
         printf("%d",arr[mid]);
-        break;
+        break;}
+        else{
+           int midd=(start+end)/2;
+           arr[mid]=(arr[midd]+arr[midd+1])/2
+           printf("%d",arr[mid]);
+        }
     }
     return 0;
 }
