@@ -11,10 +11,11 @@ int main(){
     }for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
             diff=arr[i]-arr[j];
-        }
+        
         if(diff<min){
         min=diff;
             printf("%d %d\n",arr[i],arr[j]);
+        }
     }
     
     
