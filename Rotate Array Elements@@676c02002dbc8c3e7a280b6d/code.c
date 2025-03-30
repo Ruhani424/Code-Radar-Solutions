@@ -15,7 +15,7 @@ int main(){
         arr[start]=arr[end];
         arr[end]=temp;
     }
-    int star1t=0;
+    int start1=0;
     int end1=k-1;
     while(start1<end1){
         int temp=arr[start1];
