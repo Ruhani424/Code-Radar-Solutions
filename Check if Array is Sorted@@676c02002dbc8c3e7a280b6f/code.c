@@ -15,6 +15,7 @@ int main(){
                 // int temp=arr[j];
                 // arr[j]>arr[j+1];
                 printf(" Not Sorted\n");
+                break;
                 // arr[j+1]>temp;
             }
     }
