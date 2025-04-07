@@ -1,4 +1,4 @@
-int bubbleSort(int arr[],int n){
+void bubbleSort(int arr[],int n){
     
     for(int i=0;i<n-1;i++){
         int flag=0;
@@ -10,9 +10,11 @@ int bubbleSort(int arr[],int n){
                 flag=1;  
 
             }
-    }
-    if (flag==0);
+            if (flag==0);
         break;
+    }
+    // if (flag==0);
+    //     break;
 }
 }
 void printArray(int arr[], int n) {
