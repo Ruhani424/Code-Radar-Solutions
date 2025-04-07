@@ -10,7 +10,7 @@ int bubbleSort(int arr[],int n){
 
         }
     }
-    if (flag==0)
+    if (flag==0);
         break;
     count++;
 }
