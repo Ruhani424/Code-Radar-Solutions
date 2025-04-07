@@ -1,10 +1,11 @@
 // Your code here...
 #include <stdio.h>
+#include <limits.h>
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int min=arr[0];
+    int min=INT_MIN;
     int diff,i,j;
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
