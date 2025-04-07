@@ -10,11 +10,11 @@ void bubbleSort(int arr[],int n){
                 flag=1;  
 
             }
-            if (flag==0);
+            
+    }
+    if (flag==0){
         break;
     }
-    // if (flag==0);
-    //     break;
 }
 }
 void printArray(int arr[], int n) {
